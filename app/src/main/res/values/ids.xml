@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="numero1" type="id" />
+    <item name="numero2" type="id" />
+    <item name="resultado_suma" type="id" />
+    <item name="resultado_multiplicacion" type="id" />
+    <item name="boton_calcular" type="id" />
+</resources>

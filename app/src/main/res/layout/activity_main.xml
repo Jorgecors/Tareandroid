@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:text="Ingrese dos números:"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/numero1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:hint="Número 1"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/numero2"
+        android:layout_width="match_parent"
+        android:layout_height="83dp"
+        android:hint="Número 2"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/boton_calcular"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calcular" />
+
+    <TextView
+        android:id="@+id/resultado_suma"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Suma:"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:id="@+id/resultado_multiplicacion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Multiplicación:"
+        android:textSize="20sp" />
+
+</LinearLayout>
